@@ -1,0 +1,445 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<!-- Latest compiled and minified CSS -->
+		<link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.1.1/css/bootstrap.min.css">
+
+		<!-- Optional theme -->
+		<link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.1.1/css/bootstrap-theme.min.css">
+
+		<!-- Latest compiled and minified JavaScript -->
+		<script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.1.1/js/bootstrap.min.js"></script>
+		<style type="text/css">
+		.noun:before {content: "N"; vertical-align: super}
+		.verb:before {content: "V"; vertical-align: super}
+		.adjective:before {content: "A"; vertical-align: super}
+		</style>
+	</head>
+	<body>
+		<p class="well">
+			legend: 
+				<span class="noun">noun</span>
+				<span class="verb">verb</span>
+				<span class="adjective">adjective</span>
+		</p>
+		
+		<span class="icon-group"><i class="glyphicon glyphicon-heart"></i><sup style="left:-0.5em; top:-0.5em; color:#cccccc"><i class="glyphicon glyphicon-lock"></i></sup></span><span class="sr-only">Lock Heart</span>
+		<span class="icon-group"><sub style="left:0.5em; top:0.5em; color:#cccccc"><i class="glyphicon glyphicon-edit"></i></sub><i class="glyphicon glyphicon-lock"></i></span><span class="sr-only">Edit Lock</span>
+		<span class="icon-group"><sup style="left:0.5em; top:-0.5em; color:#cccccc"><i class="glyphicon glyphicon-lock"></i></sup><i class="glyphicon glyphicon-heart"></i></span><span class="sr-only">Lock Heart</span>
+		<span class="icon-group"><i class="glyphicon glyphicon-lock"></i><sub style="left:-0.5em; top:0.5em; color:#cccccc"><i class="glyphicon glyphicon-edit"></i></sub></span><span class="sr-only">Edit Lock</span>
+
+		<dl class="dl-horizontal">
+			<dt><i class="glyphicon glyphicon-glass"></i><span class="sr-only">glass</span></dt>
+			<dd class="adjective">inebriated</dd>
+			<dd class="noun">glass</dd>
+			<dd class="verb">drink</dd>
+			<dt><i class="glyphicon glyphicon-music"></i><span class="sr-only">music</span></dt>
+			<dd class="noun">music</dd>
+			<dd class="verb">listen</dd>
+			<dt><i class="glyphicon glyphicon-search"></i><span class="sr-only">search</span></dt>
+			<dd class="noun">search</dd>
+			<dd class="verb">search</dd>
+			<dt><i class="glyphicon glyphicon-envelope"></i><span class="sr-only">envelope</span></dt>
+			<dd class="noun">envelope</dd>
+			<dd class="verb">send</dd>
+			<dt><i class="glyphicon glyphicon-heart"></i><span class="sr-only">heart</span></dt>
+			<dd class="adjective">lovely</dd>
+			<dd class="noun">heart</dd>
+			<dd class="verb">love</dd>
+			<dt><i class="glyphicon glyphicon-star"></i><span class="sr-only">star</span></dt>
+			<dd class="adjective">starred</dd>
+			<dd class="noun">star</dd>
+			<dd class="verb">star</dd>
+			<dt><i class="glyphicon glyphicon-star-empty"></i><span class="sr-only">star-empty</span></dt>
+			<dd class="adjective">unstarred</dd>
+			<dd class="noun">star-empty</dd>
+			<dd class="verb">unstar</dd>
+			<dt><i class="glyphicon glyphicon-user"></i><span class="sr-only">user</span></dt>
+			<dd>user</dd>
+			<dt><i class="glyphicon glyphicon-film"></i><span class="sr-only">film</span></dt>
+			<dd>film</dd>
+			<dt><i class="glyphicon glyphicon-th-large"></i><span class="sr-only">th-large</span></dt>
+			<dd>th-large</dd>
+			<dt><i class="glyphicon glyphicon-th"></i><span class="sr-only">th</span></dt>
+			<dd>th</dd>
+			<dt><i class="glyphicon glyphicon-th-list"></i><span class="sr-only">th-list</span></dt>
+			<dd>th-list</dd>
+			<dt><i class="glyphicon glyphicon-ok"></i><span class="sr-only">ok</span></dt>
+			<dd>ok</dd>
+			<dt><i class="glyphicon glyphicon-remove"></i><span class="sr-only">remove</span></dt>
+			<dd>remove</dd>
+			<dt><i class="glyphicon glyphicon-zoom-in"></i><span class="sr-only">zoom-in</span></dt>
+			<dd>zoom-in</dd>
+			<dt><i class="glyphicon glyphicon-zoom-out"></i><span class="sr-only">zoom-out</span></dt>
+			<dd>zoom-out</dd>
+			<dt><i class="glyphicon glyphicon-off"></i><span class="sr-only">off</span></dt>
+			<dd>off</dd>
+			<dt><i class="glyphicon glyphicon-signal"></i><span class="sr-only">signal</span></dt>
+			<dd>signal</dd>
+			<dt><i class="glyphicon glyphicon-cog"></i><span class="sr-only">cog</span></dt>
+			<dd>cog</dd>
+			<dt><i class="glyphicon glyphicon-trash"></i><span class="sr-only">trash</span></dt>
+			<dd>trash</dd>
+			<dt><i class="glyphicon glyphicon-home"></i><span class="sr-only">home</span></dt>
+			<dd>home</dd>
+			<dt><i class="glyphicon glyphicon-file"></i><span class="sr-only">file</span></dt>
+			<dd>file</dd>
+			<dt><i class="glyphicon glyphicon-time"></i><span class="sr-only">time</span></dt>
+			<dd>time</dd>
+			<dt><i class="glyphicon glyphicon-road"></i><span class="sr-only">road</span></dt>
+			<dd>road</dd>
+			<dt><i class="glyphicon glyphicon-download-alt"></i><span class="sr-only">download-alt</span></dt>
+			<dd>download-alt</dd>
+			<dt><i class="glyphicon glyphicon-download"></i><span class="sr-only">download</span></dt>
+			<dd>download</dd>
+			<dt><i class="glyphicon glyphicon-upload"></i><span class="sr-only">upload</span></dt>
+			<dd>upload</dd>
+			<dt><i class="glyphicon glyphicon-inbox"></i><span class="sr-only">inbox</span></dt>
+			<dd>inbox</dd>
+			<dt><i class="glyphicon glyphicon-play-circle"></i><span class="sr-only">play-circle</span></dt>
+			<dd>play-circle</dd>
+			<dt><i class="glyphicon glyphicon-repeat"></i><span class="sr-only">repeat</span></dt>
+			<dd>repeat</dd>
+			<dt><i class="glyphicon glyphicon-refresh"></i><span class="sr-only">refresh</span></dt>
+			<dd>refresh</dd>
+			<dt><i class="glyphicon glyphicon-list-alt"></i><span class="sr-only">list-alt</span></dt>
+			<dd>list-alt</dd>
+			<dt><i class="glyphicon glyphicon-uni-lock"></i><span class="sr-only">uni-lock</span></dt>
+			<dd>uni-lock</dd>
+			<dt><i class="glyphicon glyphicon-flag"></i><span class="sr-only">flag</span></dt>
+			<dd>flag</dd>
+			<dt><i class="glyphicon glyphicon-headphones"></i><span class="sr-only">headphones</span></dt>
+			<dd>headphones</dd>
+			<dt><i class="glyphicon glyphicon-volume-off"></i><span class="sr-only">volume-off</span></dt>
+			<dd>volume-off</dd>
+			<dt><i class="glyphicon glyphicon-volume-down"></i><span class="sr-only">volume-down</span></dt>
+			<dd>volume-down</dd>
+			<dt><i class="glyphicon glyphicon-volume-up"></i><span class="sr-only">volume-up</span></dt>
+			<dd>volume-up</dd>
+			<dt><i class="glyphicon glyphicon-qrcode"></i><span class="sr-only">qrcode</span></dt>
+			<dd>qrcode</dd>
+			<dt><i class="glyphicon glyphicon-barcode"></i><span class="sr-only">barcode</span></dt>
+			<dd>barcode</dd>
+			<dt><i class="glyphicon glyphicon-tag"></i><span class="sr-only">tag</span></dt>
+			<dd>tag</dd>
+			<dt><i class="glyphicon glyphicon-tags"></i><span class="sr-only">tags</span></dt>
+			<dd>tags</dd>
+			<dt><i class="glyphicon glyphicon-book"></i><span class="sr-only">book</span></dt>
+			<dd>book</dd>
+			<dt><i class="glyphicon glyphicon-uni-bookmark"></i><span class="sr-only">uni-bookmark</span></dt>
+			<dd>uni-bookmark</dd>
+			<dt><i class="glyphicon glyphicon-print"></i><span class="sr-only">print</span></dt>
+			<dd>print</dd>
+			<dt><i class="glyphicon glyphicon-uni-camera"></i><span class="sr-only">uni-camera</span></dt>
+			<dd>uni-camera</dd>
+			<dt><i class="glyphicon glyphicon-font"></i><span class="sr-only">font</span></dt>
+			<dd>font</dd>
+			<dt><i class="glyphicon glyphicon-bold"></i><span class="sr-only">bold</span></dt>
+			<dd>bold</dd>
+			<dt><i class="glyphicon glyphicon-italic"></i><span class="sr-only">italic</span></dt>
+			<dd>italic</dd>
+			<dt><i class="glyphicon glyphicon-text-height"></i><span class="sr-only">text-height</span></dt>
+			<dd>text-height</dd>
+			<dt><i class="glyphicon glyphicon-text-width"></i><span class="sr-only">text-width</span></dt>
+			<dd>text-width</dd>
+			<dt><i class="glyphicon glyphicon-align-left"></i><span class="sr-only">align-left</span></dt>
+			<dd>align-left</dd>
+			<dt><i class="glyphicon glyphicon-align-center"></i><span class="sr-only">align-center</span></dt>
+			<dd>align-center</dd>
+			<dt><i class="glyphicon glyphicon-align-right"></i><span class="sr-only">align-right</span></dt>
+			<dd>align-right</dd>
+			<dt><i class="glyphicon glyphicon-align-justify"></i><span class="sr-only">align-justify</span></dt>
+			<dd>align-justify</dd>
+			<dt><i class="glyphicon glyphicon-list"></i><span class="sr-only">list</span></dt>
+			<dd>list</dd>
+			<dt><i class="glyphicon glyphicon-indent-left"></i><span class="sr-only">indent-left</span></dt>
+			<dd>indent-left</dd>
+			<dt><i class="glyphicon glyphicon-indent-right"></i><span class="sr-only">indent-right</span></dt>
+			<dd>indent-right</dd>
+			<dt><i class="glyphicon glyphicon-facetime-video"></i><span class="sr-only">facetime-video</span></dt>
+			<dd>facetime-video</dd>
+			<dt><i class="glyphicon glyphicon-picture"></i><span class="sr-only">picture</span></dt>
+			<dd>picture</dd>
+			<dt><i class="glyphicon glyphicon-pencil"></i><span class="sr-only">pencil</span></dt>
+			<dd>pencil</dd>
+			<dt><i class="glyphicon glyphicon-map-marker"></i><span class="sr-only">map-marker</span></dt>
+			<dd>map-marker</dd>
+			<dt><i class="glyphicon glyphicon-adjust"></i><span class="sr-only">adjust</span></dt>
+			<dd>adjust</dd>
+			<dt><i class="glyphicon glyphicon-tint"></i><span class="sr-only">tint</span></dt>
+			<dd>tint</dd>
+			<dt><i class="glyphicon glyphicon-edit"></i><span class="sr-only">edit</span></dt>
+			<dd>edit</dd>
+			<dt><i class="glyphicon glyphicon-share"></i><span class="sr-only">share</span></dt>
+			<dd>share</dd>
+			<dt><i class="glyphicon glyphicon-check"></i><span class="sr-only">check</span></dt>
+			<dd>check</dd>
+			<dt><i class="glyphicon glyphicon-move"></i><span class="sr-only">move</span></dt>
+			<dd>move</dd>
+			<dt><i class="glyphicon glyphicon-step-backward"></i><span class="sr-only">step-backward</span></dt>
+			<dd>step-backward</dd>
+			<dt><i class="glyphicon glyphicon-fast-backward"></i><span class="sr-only">fast-backward</span></dt>
+			<dd>fast-backward</dd>
+			<dt><i class="glyphicon glyphicon-backward"></i><span class="sr-only">backward</span></dt>
+			<dd>backward</dd>
+			<dt><i class="glyphicon glyphicon-play"></i><span class="sr-only">play</span></dt>
+			<dd>play</dd>
+			<dt><i class="glyphicon glyphicon-pause"></i><span class="sr-only">pause</span></dt>
+			<dd>pause</dd>
+			<dt><i class="glyphicon glyphicon-stop"></i><span class="sr-only">stop</span></dt>
+			<dd>stop</dd>
+			<dt><i class="glyphicon glyphicon-forward"></i><span class="sr-only">forward</span></dt>
+			<dd>forward</dd>
+			<dt><i class="glyphicon glyphicon-fast-forward"></i><span class="sr-only">fast-forward</span></dt>
+			<dd>fast-forward</dd>
+			<dt><i class="glyphicon glyphicon-step-forward"></i><span class="sr-only">step-forward</span></dt>
+			<dd>step-forward</dd>
+			<dt><i class="glyphicon glyphicon-eject"></i><span class="sr-only">eject</span></dt>
+			<dd>eject</dd>
+			<dt><i class="glyphicon glyphicon-chevron-left"></i><span class="sr-only">chevron-left</span></dt>
+			<dd>chevron-left</dd>
+			<dt><i class="glyphicon glyphicon-chevron-right"></i><span class="sr-only">chevron-right</span></dt>
+			<dd>chevron-right</dd>
+			<dt><i class="glyphicon glyphicon-plus-sign"></i><span class="sr-only">plus-sign</span></dt>
+			<dd>plus-sign</dd>
+			<dt><i class="glyphicon glyphicon-minus-sign"></i><span class="sr-only">minus-sign</span></dt>
+			<dd>minus-sign</dd>
+			<dt><i class="glyphicon glyphicon-remove-sign"></i><span class="sr-only">remove-sign</span></dt>
+			<dd>remove-sign</dd>
+			<dt><i class="glyphicon glyphicon-ok-sign"></i><span class="sr-only">ok-sign</span></dt>
+			<dd>ok-sign</dd>
+			<dt><i class="glyphicon glyphicon-question-sign"></i><span class="sr-only">question-sign</span></dt>
+			<dd>question-sign</dd>
+			<dt><i class="glyphicon glyphicon-info-sign"></i><span class="sr-only">info-sign</span></dt>
+			<dd>info-sign</dd>
+			<dt><i class="glyphicon glyphicon-screenshot"></i><span class="sr-only">screenshot</span></dt>
+			<dd>screenshot</dd>
+			<dt><i class="glyphicon glyphicon-remove-circle"></i><span class="sr-only">remove-circle</span></dt>
+			<dd>remove-circle</dd>
+			<dt><i class="glyphicon glyphicon-ok-circle"></i><span class="sr-only">ok-circle</span></dt>
+			<dd>ok-circle</dd>
+			<dt><i class="glyphicon glyphicon-ban-circle"></i><span class="sr-only">ban-circle</span></dt>
+			<dd>ban-circle</dd>
+			<dt><i class="glyphicon glyphicon-arrow-left"></i><span class="sr-only">arrow-left</span></dt>
+			<dd>arrow-left</dd>
+			<dt><i class="glyphicon glyphicon-arrow-right"></i><span class="sr-only">arrow-right</span></dt>
+			<dd>arrow-right</dd>
+			<dt><i class="glyphicon glyphicon-arrow-up"></i><span class="sr-only">arrow-up</span></dt>
+			<dd>arrow-up</dd>
+			<dt><i class="glyphicon glyphicon-arrow-down"></i><span class="sr-only">arrow-down</span></dt>
+			<dd>arrow-down</dd>
+			<dt><i class="glyphicon glyphicon-share-alt"></i><span class="sr-only">share-alt</span></dt>
+			<dd>share-alt</dd>
+			<dt><i class="glyphicon glyphicon-resize-full"></i><span class="sr-only">resize-full</span></dt>
+			<dd>resize-full</dd>
+			<dt><i class="glyphicon glyphicon-resize-small"></i><span class="sr-only">resize-small</span></dt>
+			<dd>resize-small</dd>
+			<dt><i class="glyphicon glyphicon-plus"></i><span class="sr-only">plus</span></dt>
+			<dd>plus</dd>
+			<dt><i class="glyphicon glyphicon-minus"></i><span class="sr-only">minus</span></dt>
+			<dd>minus</dd>
+			<dt><i class="glyphicon glyphicon-asterisk"></i><span class="sr-only">asterisk</span></dt>
+			<dd>asterisk</dd>
+			<dt><i class="glyphicon glyphicon-exclamation-sign"></i><span class="sr-only">exclamation-sign</span></dt>
+			<dd>exclamation-sign</dd>
+			<dt><i class="glyphicon glyphicon-gift"></i><span class="sr-only">gift</span></dt>
+			<dd>gift</dd>
+			<dt><i class="glyphicon glyphicon-leaf"></i><span class="sr-only">leaf</span></dt>
+			<dd>leaf</dd>
+			<dt><i class="glyphicon glyphicon-uni-fire"></i><span class="sr-only">uni-fire</span></dt>
+			<dd>uni-fire</dd>
+			<dt><i class="glyphicon glyphicon-eye-open"></i><span class="sr-only">eye-open</span></dt>
+			<dd>eye-open</dd>
+			<dt><i class="glyphicon glyphicon-eye-close"></i><span class="sr-only">eye-close</span></dt>
+			<dd>eye-close</dd>
+			<dt><i class="glyphicon glyphicon-warning-sign"></i><span class="sr-only">warning-sign</span></dt>
+			<dd>warning-sign</dd>
+			<dt><i class="glyphicon glyphicon-plane"></i><span class="sr-only">plane</span></dt>
+			<dd>plane</dd>
+			<dt><i class="glyphicon glyphicon-uni-calendar"></i><span class="sr-only">uni-calendar</span></dt>
+			<dd>uni-calendar</dd>
+			<dt><i class="glyphicon glyphicon-random"></i><span class="sr-only">random</span></dt>
+			<dd>random</dd>
+			<dt><i class="glyphicon glyphicon-comments"></i><span class="sr-only">comments</span></dt>
+			<dd>comments</dd>
+			<dt><i class="glyphicon glyphicon-magnet"></i><span class="sr-only">magnet</span></dt>
+			<dd>magnet</dd>
+			<dt><i class="glyphicon glyphicon-chevron-up"></i><span class="sr-only">chevron-up</span></dt>
+			<dd>chevron-up</dd>
+			<dt><i class="glyphicon glyphicon-chevron-down"></i><span class="sr-only">chevron-down</span></dt>
+			<dd>chevron-down</dd>
+			<dt><i class="glyphicon glyphicon-retweet"></i><span class="sr-only">retweet</span></dt>
+			<dd>retweet</dd>
+			<dt><i class="glyphicon glyphicon-shopping-cart"></i><span class="sr-only">shopping-cart</span></dt>
+			<dd>shopping-cart</dd>
+			<dt><i class="glyphicon glyphicon-folder-close"></i><span class="sr-only">folder-close</span></dt>
+			<dd>folder-close</dd>
+			<dt><i class="glyphicon glyphicon-folder-open"></i><span class="sr-only">folder-open</span></dt>
+			<dd>folder-open</dd>
+			<dt><i class="glyphicon glyphicon-resize-vertical"></i><span class="sr-only">resize-vertical</span></dt>
+			<dd>resize-vertical</dd>
+			<dt><i class="glyphicon glyphicon-resize-horizontal"></i><span class="sr-only">resize-horizontal</span></dt>
+			<dd>resize-horizontal</dd>
+			<dt><i class="glyphicon glyphicon-hdd"></i><span class="sr-only">hdd</span></dt>
+			<dd>hdd</dd>
+			<dt><i class="glyphicon glyphicon-bullhorn"></i><span class="sr-only">bullhorn</span></dt>
+			<dd>bullhorn</dd>
+			<dt><i class="glyphicon glyphicon-uni-bell"></i><span class="sr-only">uni-bell</span></dt>
+			<dd>uni-bell</dd>
+			<dt><i class="glyphicon glyphicon-certificate"></i><span class="sr-only">certificate</span></dt>
+			<dd>certificate</dd>
+			<dt><i class="glyphicon glyphicon-thumbs-up"></i><span class="sr-only">thumbs-up</span></dt>
+			<dd>thumbs-up</dd>
+			<dt><i class="glyphicon glyphicon-thumbs-down"></i><span class="sr-only">thumbs-down</span></dt>
+			<dd>thumbs-down</dd>
+			<dt><i class="glyphicon glyphicon-hand-right"></i><span class="sr-only">hand-right</span></dt>
+			<dd>hand-right</dd>
+			<dt><i class="glyphicon glyphicon-hand-left"></i><span class="sr-only">hand-left</span></dt>
+			<dd>hand-left</dd>
+			<dt><i class="glyphicon glyphicon-hand-top"></i><span class="sr-only">hand-top</span></dt>
+			<dd>hand-top</dd>
+			<dt><i class="glyphicon glyphicon-hand-down"></i><span class="sr-only">hand-down</span></dt>
+			<dd>hand-down</dd>
+			<dt><i class="glyphicon glyphicon-circle-arrow-right"></i><span class="sr-only">circle-arrow-right</span></dt>
+			<dd>circle-arrow-right</dd>
+			<dt><i class="glyphicon glyphicon-circle-arrow-left"></i><span class="sr-only">circle-arrow-left</span></dt>
+			<dd>circle-arrow-left</dd>
+			<dt><i class="glyphicon glyphicon-circle-arrow-top"></i><span class="sr-only">circle-arrow-top</span></dt>
+			<dd>circle-arrow-top</dd>
+			<dt><i class="glyphicon glyphicon-circle-arrow-down"></i><span class="sr-only">circle-arrow-down</span></dt>
+			<dd>circle-arrow-down</dd>
+			<dt><i class="glyphicon glyphicon-globe"></i><span class="sr-only">globe</span></dt>
+			<dd>globe</dd>
+			<dt><i class="glyphicon glyphicon-uni-wrench"></i><span class="sr-only">uni-wrench</span></dt>
+			<dd>uni-wrench</dd>
+			<dt><i class="glyphicon glyphicon-tasks"></i><span class="sr-only">tasks</span></dt>
+			<dd>tasks</dd>
+			<dt><i class="glyphicon glyphicon-filter"></i><span class="sr-only">filter</span></dt>
+			<dd>filter</dd>
+			<dt><i class="glyphicon glyphicon-uni-briefcase"></i><span class="sr-only">uni-briefcase</span></dt>
+			<dd>uni-briefcase</dd>
+			<dt><i class="glyphicon glyphicon-fullscreen"></i><span class="sr-only">fullscreen</span></dt>
+			<dd>fullscreen</dd>
+			<dt><i class="glyphicon glyphicon-dashboard"></i><span class="sr-only">dashboard</span></dt>
+			<dd>dashboard</dd>
+			<dt><i class="glyphicon glyphicon-uni-paperclip"></i><span class="sr-only">uni-paperclip</span></dt>
+			<dd>uni-paperclip</dd>
+			<dt><i class="glyphicon glyphicon-heart-empty"></i><span class="sr-only">heart-empty</span></dt>
+			<dd>heart-empty</dd>
+			<dt><i class="glyphicon glyphicon-link"></i><span class="sr-only">link</span></dt>
+			<dd>link</dd>
+			<dt><i class="glyphicon glyphicon-phone"></i><span class="sr-only">phone</span></dt>
+			<dd>phone</dd>
+			<dt><i class="glyphicon glyphicon-uni-pushpin"></i><span class="sr-only">uni-pushpin</span></dt>
+			<dd>uni-pushpin</dd>
+			<dt><i class="glyphicon glyphicon-euro"></i><span class="sr-only">euro</span></dt>
+			<dd>euro</dd>
+			<dt><i class="glyphicon glyphicon-usd"></i><span class="sr-only">usd</span></dt>
+			<dd>usd</dd>
+			<dt><i class="glyphicon glyphicon-gbp"></i><span class="sr-only">gbp</span></dt>
+			<dd>gbp</dd>
+			<dt><i class="glyphicon glyphicon-sort"></i><span class="sr-only">sort</span></dt>
+			<dd>sort</dd>
+			<dt><i class="glyphicon glyphicon-sort-by-alphabet"></i><span class="sr-only">sort-by-alphabet</span></dt>
+			<dd>sort-by-alphabet</dd>
+			<dt><i class="glyphicon glyphicon-sort-by-alphabet-alt"></i><span class="sr-only">sort-by-alphabet-alt</span></dt>
+			<dd>sort-by-alphabet-alt</dd>
+			<dt><i class="glyphicon glyphicon-sort-by-order"></i><span class="sr-only">sort-by-order</span></dt>
+			<dd>sort-by-order</dd>
+			<dt><i class="glyphicon glyphicon-sort-by-order-alt"></i><span class="sr-only">sort-by-order-alt</span></dt>
+			<dd>sort-by-order-alt</dd>
+			<dt><i class="glyphicon glyphicon-sort-by-attributes"></i><span class="sr-only">sort-by-attributes</span></dt>
+			<dd>sort-by-attributes</dd>
+			<dt><i class="glyphicon glyphicon-sort-by-attributes-alt"></i><span class="sr-only">sort-by-attributes-alt</span></dt>
+			<dd>sort-by-attributes-alt</dd>
+			<dt><i class="glyphicon glyphicon-unchecked"></i><span class="sr-only">unchecked</span></dt>
+			<dd>unchecked</dd>
+			<dt><i class="glyphicon glyphicon-expand"></i><span class="sr-only">expand</span></dt>
+			<dd>expand</dd>
+			<dt><i class="glyphicon glyphicon-collapse"></i><span class="sr-only">collapse</span></dt>
+			<dd>collapse</dd>
+			<dt><i class="glyphicon glyphicon-collapse-top"></i><span class="sr-only">collapse-top</span></dt>
+			<dd>collapse-top</dd>
+			<dt><i class="glyphicon glyphicon-log_in"></i><span class="sr-only">log_in</span></dt>
+			<dd>log_in</dd>
+			<dt><i class="glyphicon glyphicon-flash"></i><span class="sr-only">flash</span></dt>
+			<dd>flash</dd>
+			<dt><i class="glyphicon glyphicon-log_out"></i><span class="sr-only">log_out</span></dt>
+			<dd>log_out</dd>
+			<dt><i class="glyphicon glyphicon-new_window"></i><span class="sr-only">new_window</span></dt>
+			<dd>new_window</dd>
+			<dt><i class="glyphicon glyphicon-record"></i><span class="sr-only">record</span></dt>
+			<dd>record</dd>
+			<dt><i class="glyphicon glyphicon-save"></i><span class="sr-only">save</span></dt>
+			<dd>save</dd>
+			<dt><i class="glyphicon glyphicon-open"></i><span class="sr-only">open</span></dt>
+			<dd>open</dd>
+			<dt><i class="glyphicon glyphicon-saved"></i><span class="sr-only">saved</span></dt>
+			<dd>saved</dd>
+			<dt><i class="glyphicon glyphicon-import"></i><span class="sr-only">import</span></dt>
+			<dd>import</dd>
+			<dt><i class="glyphicon glyphicon-export"></i><span class="sr-only">export</span></dt>
+			<dd>export</dd>
+			<dt><i class="glyphicon glyphicon-send"></i><span class="sr-only">send</span></dt>
+			<dd>send</dd>
+			<dt><i class="glyphicon glyphicon-floppy_disk"></i><span class="sr-only">floppy_disk</span></dt>
+			<dd>floppy_disk</dd>
+			<dt><i class="glyphicon glyphicon-floppy_saved"></i><span class="sr-only">floppy_saved</span></dt>
+			<dd>floppy_saved</dd>
+			<dt><i class="glyphicon glyphicon-floppy_remove"></i><span class="sr-only">floppy_remove</span></dt>
+			<dd>floppy_remove</dd>
+			<dt><i class="glyphicon glyphicon-floppy_save"></i><span class="sr-only">floppy_save</span></dt>
+			<dd>floppy_save</dd>
+			<dt><i class="glyphicon glyphicon-floppy_open"></i><span class="sr-only">floppy_open</span></dt>
+			<dd>floppy_open</dd>
+			<dt><i class="glyphicon glyphicon-credit_card"></i><span class="sr-only">credit_card</span></dt>
+			<dd>credit_card</dd>
+			<dt><i class="glyphicon glyphicon-transfer"></i><span class="sr-only">transfer</span></dt>
+			<dd>transfer</dd>
+			<dt><i class="glyphicon glyphicon-cutlery"></i><span class="sr-only">cutlery</span></dt>
+			<dd>cutlery</dd>
+			<dt><i class="glyphicon glyphicon-header"></i><span class="sr-only">header</span></dt>
+			<dd>header</dd>
+			<dt><i class="glyphicon glyphicon-compressed"></i><span class="sr-only">compressed</span></dt>
+			<dd>compressed</dd>
+			<dt><i class="glyphicon glyphicon-earphone"></i><span class="sr-only">earphone</span></dt>
+			<dd>earphone</dd>
+			<dt><i class="glyphicon glyphicon-phone_alt"></i><span class="sr-only">phone_alt</span></dt>
+			<dd>phone_alt</dd>
+			<dt><i class="glyphicon glyphicon-tower"></i><span class="sr-only">tower</span></dt>
+			<dd>tower</dd>
+			<dt><i class="glyphicon glyphicon-stats"></i><span class="sr-only">stats</span></dt>
+			<dd>stats</dd>
+			<dt><i class="glyphicon glyphicon-sd_video"></i><span class="sr-only">sd_video</span></dt>
+			<dd>sd_video</dd>
+			<dt><i class="glyphicon glyphicon-hd_video"></i><span class="sr-only">hd_video</span></dt>
+			<dd>hd_video</dd>
+			<dt><i class="glyphicon glyphicon-subtitles"></i><span class="sr-only">subtitles</span></dt>
+			<dd>subtitles</dd>
+			<dt><i class="glyphicon glyphicon-sound_stereo"></i><span class="sr-only">sound_stereo</span></dt>
+			<dd>sound_stereo</dd>
+			<dt><i class="glyphicon glyphicon-sound_dolby"></i><span class="sr-only">sound_dolby</span></dt>
+			<dd>sound_dolby</dd>
+			<dt><i class="glyphicon glyphicon-sound_5_1"></i><span class="sr-only">sound_5_1</span></dt>
+			<dd>sound_5_1</dd>
+			<dt><i class="glyphicon glyphicon-sound_6_1"></i><span class="sr-only">sound_6_1</span></dt>
+			<dd>sound_6_1</dd>
+			<dt><i class="glyphicon glyphicon-sound_7_1"></i><span class="sr-only">sound_7_1</span></dt>
+			<dd>sound_7_1</dd>
+			<dt><i class="glyphicon glyphicon-copyright_mark"></i><span class="sr-only">copyright_mark</span></dt>
+			<dd>copyright_mark</dd>
+			<dt><i class="glyphicon glyphicon-registration_mark"></i><span class="sr-only">registration_mark</span></dt>
+			<dd>registration_mark</dd>
+			<dt><i class="glyphicon glyphicon-cloud"></i><span class="sr-only">cloud</span></dt>
+			<dd>cloud</dd>
+			<dt><i class="glyphicon glyphicon-cloud_download"></i><span class="sr-only">cloud_download</span></dt>
+			<dd>cloud_download</dd>
+			<dt><i class="glyphicon glyphicon-cloud_upload"></i><span class="sr-only">cloud_upload</span></dt>
+			<dd>cloud_upload</dd>
+			<dt><i class="glyphicon glyphicon-tree_conifer"></i><span class="sr-only">tree_conifer</span></dt>
+			<dd>tree_conifer</dd>
+			<dt><i class="glyphicon glyphicon-tree_deciduous"></i><span class="sr-only">tree_deciduous</span></dt>
+			<dd>tree_deciduous</dd>
+		</dl>
+	</body>
+</html>
