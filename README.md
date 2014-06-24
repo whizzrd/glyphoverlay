@@ -13,6 +13,10 @@ Our current implementation envisions using html subscript and superscript tags t
       <span class="glyph-group"><sup class="glyph-overlay top left"><i class="glyphicon glyphicon-lock"></i></sup><i class="glyphicon glyphicon-heart"></i></span><span class="sr-only">Lock Heart</span>
       <span class="glyph-group"><i class="glyphicon glyphicon-lock"></i><sub class="glyph-overlay bottom right"><i class="glyphicon glyphicon-edit"></i></sub></span><span class="sr-only">Edit Lock</span>
 ```
+      <span class="glyph-group"><i class="octicon octicon-heart"></i><sup class="glyph-overlay top right"><i class="octicon octicon-lock"></i></sup></span><span class="sr-only">Lock Heart</span>
+      <span class="glyph-group"><sub class="glyph-overlay bottom left"><i class="octicon octicon-edit"></i></sub><i class="octicon octicon-lock"></i></span><span class="sr-only">Edit Lock</span>
+      <span class="glyph-group"><sup class="glyph-overlay top left"><i class="octicon octicon-lock"></i></sup><i class="octicon octicon-heart"></i></span><span class="sr-only">Lock Heart</span>
+      <span class="glyph-group"><i class="octicon octicon-lock"></i><sub class="glyph-overlay bottom right"><i class="octicon octicon-edit"></i></sub></span><span class="sr-only">Edit Lock</span>
 
 ### Contributors ###
   * Joris van Lier - Artronics
