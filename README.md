@@ -2,10 +2,10 @@ glyphoverlay
 ============
 
 ## Glyph Overlays
-Glyphs denoting the class of a subject can be augmented with an overlay glyph denoting action to perform on that subject
+Glyphs denoting the class of a subject can be augmented with an overlay glyph to convey additional status of and/or action affecting the subject.
 
 ### Examples
-Our current implementation envisions using html subscript and superscript tags to scale and displace the overlays
+Our current implementation envisions using html subscript and superscript elements to denote adjectives and verbs while scaling and displacing the overlays.
 
 ```html
 <span class="glyph-group"><span class="octicon octicon-bug"></span><sup class="glyph-overlay top right"><span class="octicon octicon-beer"></span></sup></span><span class="sr-only">Beer Bug</span>
