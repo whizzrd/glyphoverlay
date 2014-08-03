@@ -39,10 +39,6 @@ Our current implementation envisions using html or CSS subscript and superscript
 
 ### Contributors ###
   * Joris van Lier - Artronics
-  * Ernst Erik Wolzak - Ernst Erik Designs
-  * Martijn Langereis - Explicit Design
-  * Bas Nijland - Explicit Design
-
 
 ### Made with these awesome libraries
   * Bootstrap https://github.com/twbs/bootstrap
