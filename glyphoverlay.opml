@@ -1,7 +1,27 @@
 <?xml version="1.0"?>
+<?xml-stylesheet type="text/xsl" href="lib/opml2html/xsl/opml2html2.xsl"?>
 <opml version="2.0">
   <head>
     <title>glyphoverlay</title>
+    <style type="text/css">
+		body {
+			padding-top: 50px;
+		}
+		.content {
+			padding: 40px 15px;
+		}
+
+		span.adjective {vertical-align: sub; font-size: 0.75em;}
+		span.noun {vertical-align: baseline; font-size: 1em;}
+		span.verb {vertical-align: super; font-size: 0.75em;}
+		span.glyphicon.adjective:before, .adjective .glyphicon {vertical-align: sub; font-size: 0.75em; }
+		span.glyphicon.noun:before, .noun .glyphicon {vertical-align: baseline; font-size: 1em}
+		span.glyphicon.verb:before, .verb .glyphicon {vertical-align: super; font-size: 0.75em}
+		dd.adjective:before {vertical-align: baseline; content: "A"; font-weight: bold}
+		dd.noun:before {vertical-align: baseline; content: "N"; font-weight: bold}
+		dd.verb:before {vertical-align: baseline; content: "V"; font-weight: bold}
+		</style>
+    <ownerName/>
   </head>
   <body>
     <outline type="header"/>

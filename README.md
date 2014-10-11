@@ -1,6 +1,14 @@
 glyphoverlay
 ============
 
+## Visual representation of meaning encoded in written content
+
+Written content could be searched for instances of (constellations of) regex://([adjective])?([noun])?([verb])?
+the resulting abstract syntax trees could then, with the help of context sensitive thesauri, be translated into visual glyph groups organized in a strict syntax pattern
+the resulting glyph groups could then be displayed in the margin of the document providing a visual annotation conveying a marginal representation of the written content.
+
+* please fork if you think you can you help with the above
+
 ## Glyph Overlays
 Glyphs denoting the class of a subject can be augmented with an overlay glyph to convey additional status of and/or action affecting the subject.
 
